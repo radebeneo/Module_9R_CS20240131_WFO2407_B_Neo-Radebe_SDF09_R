@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
     <title>BlackJack ♠️♥️♦️♣️</title>
 </head>
-    <body>
-        
-    </body>
+<body>
+    <header>
+        <h1>Blackjack</h1>
+    </header>
+    <main>
+        <p id="message-el">Want to play a round?</p>
+        <div id="game-info">
+            <p id="cards-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+            <p id="player-el"></p>
+        </div>
+        <div id="buttons">
+            <button onclick="startGame()">START GAME</button>
+            <button onclick="newCard()">NEW CARD</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
 </html>
 
