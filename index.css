@@ -1,6 +1,5 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
     background-size: cover;
     font-weight: bold;
     color: white;
@@ -30,6 +29,15 @@ main {
 
 #game-info p {
     margin: 10px 0;
+}
+
+#betting {
+    margin: 20px 0;
+}
+
+#bet-amount {
+    width: 60px;
+    text-align: center;
 }
 
 button {
