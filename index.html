@@ -17,12 +17,17 @@
             <p id="sum-el">Sum:</p>
             <p id="player-el"></p>
         </div>
+        <div id="betting">
+            <p>Place your bet:</p>
+            <input type="number" id="bet-amount" min="1" max="200" value="10">
+            <button onclick="placeBet()">PLACE BET</button>
+        </div>
         <div id="buttons">
             <button onclick="startGame()">START GAME</button>
             <button onclick="newCard()">NEW CARD</button>
+            <button onclick="switchPlayer()">SWITCH PLAYER</button>
         </div>
     </main>
     <script src="index.js"></script>
 </body>
 </html>
-
